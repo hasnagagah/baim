@@ -1,0 +1,29 @@
+buatkan 1 endpoint function
+Merge the words,
+anggap mempunyai string
+tidak ada spasi
+dan hanya menerima
+Alphabetic Char (AAABBCDDA), dan saya menambahkan
+1 input lagi berupa
+integer (3) untuk
+membagi String itu
+ke dalam array
+dengan jumlah
+sesuai dengan Integer tsb
+([AAA], [BBC], [DDA]).
+
+Function ini
+akan mengembalikan
+array yang sama
+tapi mengabungkan huruf yang sama ([A], [BC], [DA])
+
+Contoh: 
+
+Input: "ABC DDA ADA", 3
+Output: [A, DA, AD]
+
+Input: "ABBBAADA", 2
+Output: [AB, B, A, DA]
+
+Input: "AABBCCD", 2
+Output: [A, B, C, D]
